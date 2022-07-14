@@ -27,22 +27,22 @@ function makeSound(key) {
 
   switch (key) {
     case "L":
-      var sound2  = new Audio("sound2.mpeg");
+      var sound2  = new Audio("./sound2.mpeg");
       sound2.play();
       break;
 
     case "A":
-      var sound1 = new Audio("sound1.mpeg");
+      var sound1 = new Audio("./sound1.mpeg");
       sound1.play();
       break;
 
     case "V":
-      var sound3 = new Audio('sound3.mpeg');
+      var sound3 = new Audio("./sound3.mpeg");
       sound3.play();
       break;
 
     case "A":
-      var sound4 = new Audio('sound4.mpeg');
+      var sound4 = new Audio("./sound4.mpeg");
       sound4.play();
       break;
 
